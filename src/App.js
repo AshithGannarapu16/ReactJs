@@ -4,18 +4,19 @@ import ListComponent from "./components/list/list";
 import OrderedList from "./components/list/orderedlist/orderedlist";
 import UnorderedList from "./components/list/unorderedlist/unorderedlist"
 import Table from "./components/table/table";
-
+import Counter from "./components/counter/counter";
 
 function App(){
   return(
     
     <div>
     <h3>app.js</h3>
-    <ButtonComponent/>
+    {/* <ButtonComponent/>
     <ListComponent/>
     <OrderedList/>
     <UnorderedList/>
-    <Table/>
+    <Table/> */}
+    <Counter/>
 
 
 
